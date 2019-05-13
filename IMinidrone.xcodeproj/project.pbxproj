@@ -1,0 +1,433 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0E1AB89D1FAC1B5B002520F9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E1AB89C1FAC1B5B002520F9 /* AppDelegate.swift */; };
+		0E1AB8A21FAC1B5B002520F9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E1AB8A01FAC1B5B002520F9 /* Main.storyboard */; };
+		0E1AB8A41FAC1B5B002520F9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0E1AB8A31FAC1B5B002520F9 /* Assets.xcassets */; };
+		0E1AB8A71FAC1B5B002520F9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E1AB8A51FAC1B5B002520F9 /* LaunchScreen.storyboard */; };
+		0E1AB8AF1FAC1BA5002520F9 /* ARSDK3_iOS_3_13_0 in Resources */ = {isa = PBXBuildFile; fileRef = 0E1AB8AE1FAC1BA5002520F9 /* ARSDK3_iOS_3_13_0 */; };
+		0E1AB8B41FAC1EEC002520F9 /* DeviceListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E1AB8B31FAC1EEC002520F9 /* DeviceListViewController.swift */; };
+		0E1AB8B61FAC2C54002520F9 /* MiniDroneButtonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E1AB8B51FAC2C54002520F9 /* MiniDroneButtonViewController.swift */; };
+		0E1AB8C31FAC34DB002520F9 /* MiniDrone.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E1AB8C21FAC34DB002520F9 /* MiniDrone.m */; };
+		0E1AB8C81FACA890002520F9 /* DroneDiscoverer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E1AB8C71FACA890002520F9 /* DroneDiscoverer.swift */; };
+		0E69712B1FB8145500C02FC3 /* MiniDroneFlowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E69712A1FB8145500C02FC3 /* MiniDroneFlowViewController.swift */; };
+		790217B622885DC200BA508A /* XMCircleGestureRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 790217B522885DC200BA508A /* XMCircleGestureRecognizer.swift */; };
+		7972555C22872B3F00434129 /* MiniDroneGSensorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7972555B22872B3F00434129 /* MiniDroneGSensorViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0E1AB8991FAC1B5B002520F9 /* IMinidrone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IMinidrone.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0E1AB89C1FAC1B5B002520F9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0E1AB8A11FAC1B5B002520F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0E1AB8A31FAC1B5B002520F9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0E1AB8A61FAC1B5B002520F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0E1AB8A81FAC1B5B002520F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0E1AB8AE1FAC1BA5002520F9 /* ARSDK3_iOS_3_13_0 */ = {isa = PBXFileReference; lastKnownFileType = folder; path = ARSDK3_iOS_3_13_0; sourceTree = "<group>"; };
+		0E1AB8B31FAC1EEC002520F9 /* DeviceListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceListViewController.swift; sourceTree = "<group>"; };
+		0E1AB8B51FAC2C54002520F9 /* MiniDroneButtonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiniDroneButtonViewController.swift; sourceTree = "<group>"; };
+		0E1AB8B91FAC344D002520F9 /* Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Bridging-Header.h"; sourceTree = "<group>"; };
+		0E1AB8C11FAC34DB002520F9 /* MiniDrone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MiniDrone.h; sourceTree = "<group>"; };
+		0E1AB8C21FAC34DB002520F9 /* MiniDrone.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MiniDrone.m; sourceTree = "<group>"; };
+		0E1AB8C71FACA890002520F9 /* DroneDiscoverer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DroneDiscoverer.swift; sourceTree = "<group>"; };
+		0E69712A1FB8145500C02FC3 /* MiniDroneFlowViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiniDroneFlowViewController.swift; sourceTree = "<group>"; };
+		790217B522885DC200BA508A /* XMCircleGestureRecognizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XMCircleGestureRecognizer.swift; sourceTree = "<group>"; };
+		7972555B22872B3F00434129 /* MiniDroneGSensorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiniDroneGSensorViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0E1AB8961FAC1B5B002520F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0E1AB8901FAC1B5B002520F9 = {
+			isa = PBXGroup;
+			children = (
+				0E1AB8AE1FAC1BA5002520F9 /* ARSDK3_iOS_3_13_0 */,
+				0E1AB89B1FAC1B5B002520F9 /* IMinidrone */,
+				0E1AB89A1FAC1B5B002520F9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0E1AB89A1FAC1B5B002520F9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0E1AB8991FAC1B5B002520F9 /* IMinidrone.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0E1AB89B1FAC1B5B002520F9 /* IMinidrone */ = {
+			isa = PBXGroup;
+			children = (
+				0E1AB8C71FACA890002520F9 /* DroneDiscoverer.swift */,
+				0E1AB8C11FAC34DB002520F9 /* MiniDrone.h */,
+				0E1AB8C21FAC34DB002520F9 /* MiniDrone.m */,
+				0E1AB8B31FAC1EEC002520F9 /* DeviceListViewController.swift */,
+				0E1AB8B51FAC2C54002520F9 /* MiniDroneButtonViewController.swift */,
+				0E69712A1FB8145500C02FC3 /* MiniDroneFlowViewController.swift */,
+				7972555B22872B3F00434129 /* MiniDroneGSensorViewController.swift */,
+				0E1AB89C1FAC1B5B002520F9 /* AppDelegate.swift */,
+				0E1AB8A01FAC1B5B002520F9 /* Main.storyboard */,
+				0E1AB8A31FAC1B5B002520F9 /* Assets.xcassets */,
+				0E1AB8A51FAC1B5B002520F9 /* LaunchScreen.storyboard */,
+				0E1AB8A81FAC1B5B002520F9 /* Info.plist */,
+				0E1AB8B91FAC344D002520F9 /* Bridging-Header.h */,
+				790217B522885DC200BA508A /* XMCircleGestureRecognizer.swift */,
+			);
+			path = IMinidrone;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0E1AB8981FAC1B5B002520F9 /* IMinidrone */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0E1AB8AB1FAC1B5B002520F9 /* Build configuration list for PBXNativeTarget "IMinidrone" */;
+			buildPhases = (
+				0E1AB8951FAC1B5B002520F9 /* Sources */,
+				0E1AB8961FAC1B5B002520F9 /* Frameworks */,
+				0E1AB8971FAC1B5B002520F9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IMinidrone;
+			productName = SwiftParrotMinidrone;
+			productReference = 0E1AB8991FAC1B5B002520F9 /* IMinidrone.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0E1AB8911FAC1B5B002520F9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0910;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = ST14580;
+				TargetAttributes = {
+					0E1AB8981FAC1B5B002520F9 = {
+						CreatedOnToolsVersion = 9.1;
+						LastSwiftMigration = 0910;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 0E1AB8941FAC1B5B002520F9 /* Build configuration list for PBXProject "IMinidrone" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0E1AB8901FAC1B5B002520F9;
+			productRefGroup = 0E1AB89A1FAC1B5B002520F9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0E1AB8981FAC1B5B002520F9 /* IMinidrone */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0E1AB8971FAC1B5B002520F9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E1AB8A71FAC1B5B002520F9 /* LaunchScreen.storyboard in Resources */,
+				0E1AB8A41FAC1B5B002520F9 /* Assets.xcassets in Resources */,
+				0E1AB8A21FAC1B5B002520F9 /* Main.storyboard in Resources */,
+				0E1AB8AF1FAC1BA5002520F9 /* ARSDK3_iOS_3_13_0 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0E1AB8951FAC1B5B002520F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				790217B622885DC200BA508A /* XMCircleGestureRecognizer.swift in Sources */,
+				0E1AB8B61FAC2C54002520F9 /* MiniDroneButtonViewController.swift in Sources */,
+				0E1AB8C31FAC34DB002520F9 /* MiniDrone.m in Sources */,
+				0E1AB89D1FAC1B5B002520F9 /* AppDelegate.swift in Sources */,
+				7972555C22872B3F00434129 /* MiniDroneGSensorViewController.swift in Sources */,
+				0E69712B1FB8145500C02FC3 /* MiniDroneFlowViewController.swift in Sources */,
+				0E1AB8C81FACA890002520F9 /* DroneDiscoverer.swift in Sources */,
+				0E1AB8B41FAC1EEC002520F9 /* DeviceListViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0E1AB8A01FAC1B5B002520F9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0E1AB8A11FAC1B5B002520F9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0E1AB8A51FAC1B5B002520F9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0E1AB8A61FAC1B5B002520F9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0E1AB8A91FAC1B5B002520F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0E1AB8AA1FAC1B5B002520F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0E1AB8AC1FAC1B5B002520F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 495DU6X337;
+				"HEADER_SEARCH_PATHS[sdk=iphoneos*]" = "ARSDK3_iOS_3_13_0/arsdk-ios/staging/usr/include";
+				"HEADER_SEARCH_PATHS[sdk=iphonesimulator*]" = "ARSDK3_iOS_3_13_0/arsdk-ios_sim/staging/usr/include";
+				INFOPLIST_FILE = IMinidrone/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				"LIBRARY_SEARCH_PATHS[sdk=iphoneos*]" = "ARSDK3_iOS_3_13_0/arsdk-ios/staging/usr/lib";
+				"LIBRARY_SEARCH_PATHS[sdk=iphonesimulator*]" = "ARSDK3_iOS_3_13_0/arsdk-ios_sim/staging/usr/lib";
+				OTHER_LDFLAGS = (
+					"-larcommands",
+					"-larcontroller",
+					"-lardiscoverywithouteacc",
+					"-larnetwork",
+					"-larnetworkal",
+					"-larsal",
+					"-larstream",
+					"-larstream2",
+					"-larmavlink",
+					"-ljson",
+					"-larmedia",
+					"-larutils",
+					"-lcurl",
+					"-lardatatransfer",
+					"-lcrypto",
+					"-lz",
+					"-lssl",
+					"-lpomp",
+					"-lmux",
+					"-lulog",
+					"-lsdp",
+					"-lrtsp",
+					"-lfutils",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = IMinidrone;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "IMinidrone/Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0E1AB8AD1FAC1B5B002520F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 495DU6X337;
+				"HEADER_SEARCH_PATHS[sdk=iphoneos*]" = "ARSDK3_iOS_3_13_0/arsdk-ios/staging/usr/include";
+				"HEADER_SEARCH_PATHS[sdk=iphonesimulator*]" = "ARSDK3_iOS_3_13_0/arsdk-ios_sim/staging/usr/include";
+				INFOPLIST_FILE = IMinidrone/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				"LIBRARY_SEARCH_PATHS[sdk=iphoneos*]" = "ARSDK3_iOS_3_13_0/arsdk-ios/staging/usr/lib";
+				"LIBRARY_SEARCH_PATHS[sdk=iphonesimulator*]" = "ARSDK3_iOS_3_13_0/arsdk-ios_sim/staging/usr/lib";
+				OTHER_LDFLAGS = (
+					"-larcommands",
+					"-larcontroller",
+					"-lardiscoverywithouteacc",
+					"-larnetwork",
+					"-larnetworkal",
+					"-larsal",
+					"-larstream",
+					"-larstream2",
+					"-larmavlink",
+					"-ljson",
+					"-larmedia",
+					"-larutils",
+					"-lcurl",
+					"-lardatatransfer",
+					"-lcrypto",
+					"-lz",
+					"-lssl",
+					"-lpomp",
+					"-lmux",
+					"-lulog",
+					"-lsdp",
+					"-lrtsp",
+					"-lfutils",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = IMinidrone;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "IMinidrone/Bridging-Header.h";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0E1AB8941FAC1B5B002520F9 /* Build configuration list for PBXProject "IMinidrone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0E1AB8A91FAC1B5B002520F9 /* Debug */,
+				0E1AB8AA1FAC1B5B002520F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0E1AB8AB1FAC1B5B002520F9 /* Build configuration list for PBXNativeTarget "IMinidrone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0E1AB8AC1FAC1B5B002520F9 /* Debug */,
+				0E1AB8AD1FAC1B5B002520F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0E1AB8911FAC1B5B002520F9 /* Project object */;
+}
